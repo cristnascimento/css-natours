@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cristnascimento/css-natours/issues"
   },
-  "homepage": "https://github.com/cristnascimento/css-natours#readme"
+  "homepage": "https://github.com/cristnascimento/css-natours#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
