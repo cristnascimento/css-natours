@@ -16,7 +16,7 @@
         box-shadow: 0 10px 20px rgba($color-black,.2);
 
         &::after {
-            /*transform: scaleX(1.4) scaleY(1.6);*/
+            transform: scaleX(1.4) scaleY(1.6);
             opacity: 0;
         }
     }
@@ -26,12 +26,21 @@
         box-shadow: 0 5px 10px rgba($color-black,.2);
     }
     
-    &-white {
+    &--white {
         background-color: $color-white;
         color: $color-gray-dark;
 
         &::after {
             background-color: $color-white;
+        }
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
         }
     }
     
